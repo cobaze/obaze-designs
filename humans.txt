@@ -1,0 +1,26 @@
+/* Coba Designs was created by Chuck Obaze, a Freelance Graphic and Web Designer Based in Atlanta, GA  */
+/* cobadesigns.com */
+/* humanstxt.org */
+
+/* TEAM */
+
+	Web Developer: Chuck Obaze
+	Twitter: @I_AM_CHUCKOBAZE
+	Twitter: @coba_designs
+	From: Atlanta, GA
+
+	Web designer: Chuck Obaze
+	Twitter: @I_AM_CHUCKOBAZE
+	Twitter: @coba_designs
+	From: Atlanta, GA
+
+/* THANKS */
+
+	Photography:Jeff Sheldon
+	Contact: ugmonk.com
+	Twitter: @ugmonk
+
+/* SITE */
+	Language: English
+	Doctype:HTML5, CSS3
+	IDE: Coda 2, Git Hub, Sass, Photoshop, Illustrator, Scout, Cyberduck

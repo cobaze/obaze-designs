@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Graphic and Web Design Portfolio of Chuck Obaze. ">
+		<meta name="keywords" content="Graphic Design, Web Design, Web Development, Logo Design, Brochures, Magazines">
+		<title>Chuck Obaze Designs | Atlanta Graphic and Web Designer</title>
+		<link rel="shortcut icon" href="imgs/chuckobaze-favicon16.png"/>
+		<link rel="shortcut icon" href="imgs/chuckobaze-favicon32.png"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/coba.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Vast+Shadow|Londrina+Outline|Londrina+Shadow|Sonsie+One|Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600italic,600,700,700italic,800italic,900,900italic,800' rel='stylesheet' type='text/css'>
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body class="main-body">
+		<div id="main-container"> <!-- Start Main Container -->
+			<header class="main-header"> <!-- Start Main Header -->
+				<a class="logo-link" href="#home"><img src="imgs/chuckobaze.png" alt="Chuck Obaze Graphic and Web Design Logo"></a>
+				<nav class="main-nav">
+					<ul class="active-nav">
+						<li class="home-nav"><a href="index.html">HOME</a></li>
+						<li class="projects-nav"><a class="active-link" href="#projects">PROJECTS</a></li>
+						<li class="resume-nav"><a href="resume.html">RESUME</a></li>
+						<li class="about-nav"><a href="about.html">ABOUT</a></li>
+						<li class="contact-nav"><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+			</header> <!-- End Main Header -->
+			<section class="first-index-page-container"> <!-- Start first container -->
+				<div id="home"> <!-- Start Section Home -->
+					<div class="letters-holder">
+						<h1>My Name is</h1>
+						<img class="home-logo" src="imgs/chuck-obaze-logo-white.png" alt="Chuck Obaze Graphic and Web Design Logo">
+						<h1>I am a Designer that believes in Using Design for the Good of Humanity.</h1>
+						<a class="dwn-btn" href="#projects"></a>
+					</div>
+				</div> <!-- End Section Home -->
+			</section> <!-- End first container -->
+
+			<section class="second-index-page-container"> <!-- Start second container -->
+				<div id="projects"> <!-- Start projects -->
+					<h2>PROJECTS</h2>
+						<div class="port-item" style="margin-right: 0% !important;"><a href="nipost.html"><img src="imgs/aglow-img.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item"><a href="connect-ga.html"><img src="imgs/connect-ga-img.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item" id="margin-out"><a href="bug-out.html"><img src="imgs/bug-out-img-1.jpg" alt="BugOut"></a></div>
+						<div class="port-item" id="nipost"><a href="nipost.html"><img src="imgs/nipost-img-2.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item" style="margin-right: 0% !important;"><a href="nipost.html"><img src="imgs/nipost-img-2.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item"><a href="nipost.html"><img src="imgs/nipost-img-2.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item" id="margin-outter"><a href="nipost.html"><img src="imgs/nipost-img-2.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+						<div class="port-item"><a href="nipost.html"><img src="imgs/nipost-img-2.jpg" alt="Nipost, Nigerian Postal Service Redesign"></a></div>
+				</div> <!-- End projects -->
+			</section> <!-- End second container -->
+
+			<footer class="main-footer">
+				<p>Copyright &copy; Chuck Obaze, 2015. All Rights Reserved</p>
+			</footer>
+		</div> <!-- END main-container -->
+
+		<!-- Start jQuery Here -->
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/coba.js"></script>
+		<script>
+			$(document).ready(function(){
+
+				$('.main-header').hide();
+
+				$('.home-nav').click(function(e){
+					e.preventDefault();
+					$('html, body').animate({
+						scrollTop: $("#home").offset().top
+							}, 2000);
+				});
+
+				$('.logo-link').click(function(e){
+					e.preventDefault();
+					$('html, body').animate({
+						scrollTop: $("#home").offset().top
+							}, 2000);
+				});
+
+				$('.projects-nav').click(function(e){
+					e.preventDefault();
+					$('html, body').animate({
+						scrollTop: $("#projects").offset().top
+							}, 2000);
+				});
+
+				$('.dwn-btn').click(function(e){
+					e.preventDefault();
+					$('html, body').animate({
+						scrollTop: $("#projects").offset().top
+							}, 2000);
+				});
+
+				$(window).scroll(function(){
+
+					if ($(window).scrollTop() > 650) {
+						$('.main-header').fadeIn(200);
+					} else {
+						$('.main-header').fadeOut(200);
+					}
+
+					if ($(window).scrollTop() > 650){
+					$('.active-link').addClass('active-link-style');
+					} else {
+						$('.active-link').removeClass('active-link-style');
+					}
+
+				});
+
+			});
+		</script>
+	</body>
+</html>

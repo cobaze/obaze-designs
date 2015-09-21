@@ -1,0 +1,1215 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://cobadesign.com
+-----------------------------------------------------------------------------*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =Fonts
+-----------------------------------------------------------------------------*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* line 30, ../sass/coba.scss */
+div#home, div#projects, div#about, div#resume, div#contact-me, section.nipost-first-container {
+  margin: 0 auto;
+  max-width: 135em;
+  width: 100%;
+  height: 96em;
+  clear: both;
+  padding-top: 7%;
+  box-sizing: border-box;
+}
+
+/* line 40, ../sass/coba.scss */
+section.first-index-page-container, section.second-index-page-container, section.about-container, section#resume-fourth-container, section#contact-container {
+  width: 100%;
+}
+
+/* line 44, ../sass/coba.scss */
+div#projects h2, div#about h2, section.nipost-first-container h2, section.nipost-first-container h3 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414042;
+  font-size: 3em;
+}
+
+/* line 51, ../sass/coba.scss */
+a.social-one {
+  width: 4em;
+  height: 4em;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  background-size: 6em;
+  background-repeat: no-repeat;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 64, ../sass/coba.scss */
+div.dwn-pdf, div.skill-info {
+  float: left;
+  width: 100%;
+  max-width: 33em;
+  box-sizing: border-box;
+  margin-right: 1em;
+}
+
+/* line 72, ../sass/coba.scss */
+div.dwn-pdf a:hover, div.dwn-pdf a:focus, button:hover, button:focus {
+  color: #f0555a;
+  background-color: #ffffff;
+  border: solid #f0555a 0.125em;
+}
+
+/* line 78, ../sass/coba.scss */
+div.skill-info ul li, div.education ul li {
+  background-image: url(../imgs/bullet.png);
+  background-repeat: no-repeat;
+  list-style: none;
+  background-position: center left;
+  background-size: 0.9em;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
+}
+
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+/* line 123, ../sass/coba.scss */
+a:link, a:visited, a:hover, a:focus, a:active
+html {
+  font-size: 10px;
+}
+
+/* line 127, ../sass/coba.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 132, ../sass/coba.scss */
+body {
+  font-size: 10px;
+  /*font-family: $helvetica;*/
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 141, ../sass/coba.scss */
+#main-container {
+  width: 100%;
+}
+
+/* line 145, ../sass/coba.scss */
+header.main-header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2em 0 2em 0;
+  border-bottom: 1px solid gray;
+}
+/* line 153, ../sass/coba.scss */
+header.main-header img {
+  float: left;
+  max-width: 15em;
+  width: 100%;
+  padding-left: 2%;
+}
+
+/* line 161, ../sass/coba.scss */
+.active-link-style {
+  border-bottom: solid #f0555a 0.3em;
+}
+
+/* line 165, ../sass/coba.scss */
+nav.main-nav {
+  float: right;
+  padding-right: 2%;
+  position: relative;
+  top: 4.5em;
+}
+/* line 171, ../sass/coba.scss */
+nav.main-nav ul {
+  clear: both;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+}
+/* line 178, ../sass/coba.scss */
+nav.main-nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 2em;
+  display: inline;
+}
+/* line 184, ../sass/coba.scss */
+nav.main-nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+/* line 190, ../sass/coba.scss */
+nav.main-nav ul li a:visited {
+  border-bottom: solid #f0555a 0.3em;
+}
+/* line 194, ../sass/coba.scss */
+nav.main-nav ul li a:hover, nav.main-nav ul li a:focus, nav.main-nav ul li a:active {
+  border-bottom: solid #f0555a 0.3em;
+}
+
+/* line 202, ../sass/coba.scss */
+li.contact-nav {
+  margin-right: 0em !important;
+}
+
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/* START STYLING SECTION HOME AND FIRST-INDEX-PAGE-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 212, ../sass/coba.scss */
+section.first-index-page-container {
+  background-image: url(../imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 96em;
+  clear: both;
+  width: 100%;
+}
+
+/* line 222, ../sass/coba.scss */
+div#home {
+  max-width: 135em;
+  padding-top: 7%;
+}
+
+/* line 228, ../sass/coba.scss */
+div.letters-holder {
+  height: 81em;
+  width: 100%;
+  max-width: 103em;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+/* line 235, ../sass/coba.scss */
+div.letters-holder h1 {
+  width: 100%;
+  max-width: 22em;
+  color: #ffffff;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+/* line 247, ../sass/coba.scss */
+div.letters-holder img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/* line 255, ../sass/coba.scss */
+div.letters-holder a {
+  max-width: 6em;
+  height: 6em;
+  max-height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 17%;
+  margin: 0 auto;
+  background-image: url(../imgs/dwn-btn-white.png);
+  background-size: 6em;
+  background-repeat: no-repeat;
+}
+/* line 268, ../sass/coba.scss */
+div.letters-holder a:hover, div.letters-holder a:focus {
+  background-image: url(../imgs/dwn-btn.png);
+}
+
+/* END SECTION HOME AND FIRST-INDEX-PAGE-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION PROJECTS AND SECOND-INDEX-PAGE-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 283, ../sass/coba.scss */
+section.second-index-page-container {
+  height: 70em;
+}
+
+/* line 289, ../sass/coba.scss */
+div#projects {
+  height: 56.9em;
+  margin-top: 9em;
+  padding-top: 0;
+}
+
+/* line 301, ../sass/coba.scss */
+div.port-item {
+  width: 100%;
+  max-width: 33.5em;
+  height: 25em;
+  float: right;
+  overflow: hidden;
+}
+/* line 309, ../sass/coba.scss */
+div.port-item a > img {
+  width: 100%;
+  max-width: 33.5em;
+}
+
+/* line 319, ../sass/coba.scss */
+div#nipost a > img {
+  width: 100%;
+  max-width: 33.5em;
+}
+
+/* END SECTION PROJECTS AND SECOND-INDEX-PAGE-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* END STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/* START STYLING ABOUT PAGE
+-----------------------------------------------------------------------------*/
+/* START ABOUT CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 344, ../sass/coba.scss */
+section.about-container {
+  height: 90em;
+}
+
+/* line 349, ../sass/coba.scss */
+div#about {
+  height: 90em;
+  padding-top: 12%;
+}
+/* line 355, ../sass/coba.scss */
+div#about h2 {
+  color: #414042;
+}
+/* line 360, ../sass/coba.scss */
+div#about p {
+  font-size: 2.5em;
+  line-height: 1.6em;
+  color: gray;
+  font-weight: 300;
+  width: 100%;
+  max-width: 38em;
+  float: left;
+  margin-top: 5%;
+}
+/* line 371, ../sass/coba.scss */
+div#about p a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  color: #414042;
+  font-weight: bold;
+}
+/* line 378, ../sass/coba.scss */
+div#about p a:hover, div#about p a:focus {
+  color: gray;
+}
+
+/* line 385, ../sass/coba.scss */
+div.img-holder {
+  width: auto;
+  display: block;
+  float: right;
+}
+/* line 390, ../sass/coba.scss */
+div.img-holder > img {
+  width: 100%;
+  max-width: 35em;
+  margin-bottom: 5%;
+}
+
+/* line 399, ../sass/coba.scss */
+div.social {
+  width: 100%;
+  max-width: 4em;
+  height: 4em;
+  margin: 0 auto;
+}
+
+/* line 406, ../sass/coba.scss */
+a.social-one {
+  background-image: url(../imgs/in.png);
+  background-size: 4em;
+}
+/* line 411, ../sass/coba.scss */
+a.social-one:hover, a.social-one:focus {
+  background-image: url(../imgs/in-white.png);
+}
+
+/* END SECTION ABOUT AND ABOUT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION RESUME AND RESUME-FOURTH-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 424, ../sass/coba.scss */
+section#resume-fourth-container {
+  clear: both;
+  height: 233em;
+}
+
+/* line 430, ../sass/coba.scss */
+div#resume {
+  max-width: 112.5em;
+  padding-top: 10%;
+  height: 233em;
+}
+
+/* line 437, ../sass/coba.scss */
+div.dwn-pdf {
+  margin-bottom: 4em;
+}
+/* line 441, ../sass/coba.scss */
+div.dwn-pdf a {
+  text-decoration: none;
+  padding: 1.9em 0 0 1.5em;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  background-color: #f0555a;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+  background-image: url(../imgs/pdf-btn-white.png);
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position: 13em 1.1em;
+  height: 5em;
+}
+/* line 458, ../sass/coba.scss */
+div.dwn-pdf a:hover, div.dwn-pdf a:focus {
+  background-image: url(../imgs/pdf-btn-red.png);
+}
+
+/* line 466, ../sass/coba.scss */
+div.skill-info {
+  height: 153em;
+  background-color: #efefef;
+  padding: 6em 3.5em 0 3.5em;
+}
+/* line 472, ../sass/coba.scss */
+div.skill-info h3 {
+  font-size: 2.5em;
+  color: #f0555a;
+  margin-bottom: 3em;
+  text-align: center;
+}
+/* line 479, ../sass/coba.scss */
+div.skill-info h4 {
+  font-size: 2em;
+}
+/* line 483, ../sass/coba.scss */
+div.skill-info hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  border: solid 0.2em #f0555a;
+  width: 5.5em;
+}
+/* line 492, ../sass/coba.scss */
+div.skill-info ul {
+  margin-bottom: 4em;
+}
+
+/* line 502, ../sass/coba.scss */
+div.resume-info {
+  float: right;
+  max-width: 76em;
+  width: 100%;
+}
+
+/* line 508, ../sass/coba.scss */
+div.education {
+  color: #414042;
+  background-color: #efefef;
+  padding: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  max-width: 69em;
+}
+/* line 516, ../sass/coba.scss */
+div.education h3 {
+  font-size: 2.5em;
+  color: #f0555a;
+  margin-bottom: 1em;
+}
+/* line 522, ../sass/coba.scss */
+div.education h4 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+/* line 526, ../sass/coba.scss */
+div.education h4 span {
+  font-weight: 300;
+}
+/* line 531, ../sass/coba.scss */
+div.education p {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+/* line 537, ../sass/coba.scss */
+div.education ul {
+  margin-bottom: 2em;
+}
+
+/* END SECTION RESUME AND FOURTH-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION CONTACT AND CONTACT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 554, ../sass/coba.scss */
+section#contact-container {
+  /*background-color: $alt-gray-color;*/
+  background-image: url(../imgs/contact-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 563, ../sass/coba.scss */
+div#contact-me {
+  height: 90em;
+  padding-top: 10%;
+}
+/* line 568, ../sass/coba.scss */
+div#contact-me h2 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414042;
+  font-size: 3em;
+  margin: 2% 0 2% 0;
+}
+
+/* line 580, ../sass/coba.scss */
+form#get-in-touch {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 85em;
+}
+
+/* line 586, ../sass/coba.scss */
+input, textarea {
+  margin-bottom: 1.5em;
+  display: block;
+  width: 100%;
+  max-width: 61em;
+  height: 100%;
+  padding: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.42857143;
+  color: gray;
+  border: solid 1px #414042;
+  border-radius: .5em;
+  box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -webkit-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -moz-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -ms-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  box-sizing: border-box;
+}
+
+/* line 603, ../sass/coba.scss */
+button {
+  padding: 1em 1em;
+  border: #f0555a;
+  border-radius: .3em;
+  font-size: 3em;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f0555a;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* END SECTION CONTACT AND CONTACT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START FOOTER STYLE
+-----------------------------------------------------------------------------*/
+/* line 626, ../sass/coba.scss */
+footer.main-footer {
+  padding-top: 2em;
+  margin-bottom: 2em;
+  border-top: 1px solid gray;
+}
+/* line 631, ../sass/coba.scss */
+footer.main-footer p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #414042;
+}
+
+/*END FOOTER STYLE
+-----------------------------------------------------------------------------*/
+/* START NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 645, ../sass/coba.scss */
+section.nipost-first-container {
+  height: auto;
+  padding-top: 7%;
+}
+/* line 650, ../sass/coba.scss */
+section.nipost-first-container h2 {
+  margin-bottom: 0.5em;
+}
+/* line 655, ../sass/coba.scss */
+section.nipost-first-container > img {
+  width: 100%;
+  max-width: 100em;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+/* line 663, ../sass/coba.scss */
+section.nipost-first-container > p {
+  font-size: 1.9em;
+  line-height: 1.4em;
+  color: gray;
+  font-weight: 300;
+  width: 100%;
+  max-width: 45em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+/* line 675, ../sass/coba.scss */
+section.nipost-first-container h3 {
+  margin-bottom: 1em;
+}
+
+/* line 681, ../sass/coba.scss */
+div.first-sketches {
+  margin-bottom: 3em;
+}
+/* line 684, ../sass/coba.scss */
+div.first-sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 692, ../sass/coba.scss */
+div.first-sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 704, ../sass/coba.scss */
+div.second-sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1em;
+}
+/* line 712, ../sass/coba.scss */
+div.second-sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+  margin-top: 3em;
+}
+
+/* line 722, ../sass/coba.scss */
+div.sketches {
+  margin-bottom: 3em;
+}
+/* line 725, ../sass/coba.scss */
+div.sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 733, ../sass/coba.scss */
+div.sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+}
+
+/* END NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* START MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+/* =Cell Phone Media Query Portrait
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {
+  /* line 760, ../sass/coba.scss */
+  section#home {
+    width: 100%;
+  }
+
+  /* line 764, ../sass/coba.scss */
+  header.main-header {
+    width: 100%;
+    height: 17em;
+  }
+  /* line 768, ../sass/coba.scss */
+  header.main-header img {
+    margin: 0 auto !important;
+    display: block;
+    width: 20em;
+    float: none;
+  }
+
+  /* line 776, ../sass/coba.scss */
+  nav.main-nav {
+    float: none;
+    padding: 0 2em 0 2em;
+  }
+  /* line 780, ../sass/coba.scss */
+  nav.main-nav ul {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 30em;
+  }
+
+  /* line 787, ../sass/coba.scss */
+  div#projects {
+    margin: 0 auto;
+    border: solid 1px pink;
+    height: 76em;
+    clear: both;
+    width: 100%;
+    padding: 10% 2% 0% 2%;
+    box-sizing: border-box;
+  }
+  /* line 796, ../sass/coba.scss */
+  div#projects h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: gray;
+    font-size: 3em;
+    margin: 2% 0 2% 0;
+  }
+
+  /* line 806, ../sass/coba.scss */
+  div.port-item {
+    width: 48.4%;
+    margin-right: 2%;
+    height: 15em;
+    float: right;
+    margin-bottom: 2%;
+  }
+
+  /* line 816, ../sass/coba.scss */
+  div.port-item-last {
+    margin-right: 0% !important;
+    border: solid 1px red;
+    width: 48.4%;
+    height: 15em;
+    float: right;
+    margin-bottom: 2%;
+  }
+
+  /* line 825, ../sass/coba.scss */
+  div#margin-out {
+    margin-right: 0;
+  }
+
+  /* line 829, ../sass/coba.scss */
+  div#margin-outter {
+    margin-right: 0;
+  }
+}
+/* =iPad Media Query
+-----------------------------------------------------------------------------*/
+/* =Media Query for Laptops
+-----------------------------------------------------------------------------*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* START STYLING LAPTOP SIZE INDEX PAGE
+  -----------------------------------------------------------------------------*/
+  /* START STYLING LAPTOP SIZE SECTION HOME AND FIRST-INDEX-PAGE-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 878, ../sass/coba.scss */
+  section.first-index-page-container {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 96em;
+    clear: both;
+    width: 100%;
+    height: 68em;
+  }
+
+  /* line 889, ../sass/coba.scss */
+  div#home {
+    max-width: 135em;
+    padding-top: 1em;
+    height: 68em;
+  }
+
+  /* line 896, ../sass/coba.scss */
+  div.letters-holder {
+    height: 64.5em;
+    width: 100%;
+    max-width: 103em;
+    margin: 0 auto;
+    margin-top: 1%;
+  }
+  /* line 903, ../sass/coba.scss */
+  div.letters-holder h1 {
+    width: 100%;
+    max-width: 22em;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  /* line 915, ../sass/coba.scss */
+  div.letters-holder img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 70em;
+  }
+  /* line 925, ../sass/coba.scss */
+  div.letters-holder a {
+    max-width: 4em;
+    height: 4em;
+    max-height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+    background-image: url(../imgs/dwn-btn-white.png);
+    background-size: 4em;
+    background-repeat: no-repeat;
+  }
+  /* line 938, ../sass/coba.scss */
+  div.letters-holder a:hover, div.letters-holder a:focus {
+    background-image: url(../imgs/dwn-btn.png);
+  }
+
+  /* END LAPTOP SIZE SECTION HOME AND FIRST-INDEX-PAGE-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SIZE SECTION PROJECTS AND SECOND-INDEX-PAGE-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 953, ../sass/coba.scss */
+  section.second-index-page-container {
+    height: 67.2em;
+  }
+
+  /* line 959, ../sass/coba.scss */
+  div#projects {
+    border: solid red 1px;
+    height: 67.2em;
+    margin-top: 0;
+  }
+  /* line 965, ../sass/coba.scss */
+  div#projects h2 {
+    margin: 10% 0 1.3% 0;
+  }
+
+  /* line 972, ../sass/coba.scss */
+  div.port-item {
+    border: solid 1px red;
+    width: 100%;
+    max-width: 31.7em;
+    height: 24.6em;
+    float: right;
+    overflow: hidden;
+  }
+  /* line 981, ../sass/coba.scss */
+  div.port-item a img {
+    width: 100%;
+    max-width: 34em;
+  }
+
+  /* line 993, ../sass/coba.scss */
+  div#nipost a img {
+    width: 100%;
+    max-width: 34em;
+  }
+
+  /* END LAPTOP SIZE SECTION PROJECTS AND SECOND-INDEX-PAGE-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* END LAPTOP SIZE STYLING INDEX PAGE
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SECTION RESUME AND FOURTH-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1010, ../sass/coba.scss */
+  section#resume-fourth-container {
+    height: 226em;
+    clear: both;
+  }
+
+  /* line 1016, ../sass/coba.scss */
+  div#resume {
+    max-width: 112.5em;
+    padding-top: 10%;
+    height: 226em;
+  }
+
+  /* line 1024, ../sass/coba.scss */
+  div.dwn-pdf {
+    margin-bottom: 4em;
+  }
+  /* line 1028, ../sass/coba.scss */
+  div.dwn-pdf a {
+    text-decoration: none;
+    padding: 1.9em 0 0 1.5em;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    background-color: #f0555a;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../imgs/pdf-btn-white.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: 13em 1.1em;
+    height: 5em;
+  }
+  /* line 1045, ../sass/coba.scss */
+  div.dwn-pdf a:hover, div.dwn-pdf a:focus {
+    background-image: url(../imgs/pdf-btn-red.png);
+  }
+
+  /* line 1053, ../sass/coba.scss */
+  div.skill-info {
+    height: 153em;
+    background-color: #efefef;
+    padding: 6em 3.5em 0 3.5em;
+  }
+  /* line 1059, ../sass/coba.scss */
+  div.skill-info h3 {
+    font-size: 2.5em;
+    color: #f0555a;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  /* line 1066, ../sass/coba.scss */
+  div.skill-info h4 {
+    font-size: 2em;
+  }
+  /* line 1070, ../sass/coba.scss */
+  div.skill-info hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    border: solid 0.2em #f0555a;
+    width: 5.5em;
+  }
+  /* line 1079, ../sass/coba.scss */
+  div.skill-info ul {
+    margin-bottom: 4em;
+  }
+
+  /* line 1089, ../sass/coba.scss */
+  div.resume-info {
+    float: right;
+    max-width: 76em;
+    width: 100%;
+  }
+
+  /* line 1095, ../sass/coba.scss */
+  div.education {
+    color: #414042;
+    background-color: #efefef;
+    padding: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 69em;
+  }
+  /* line 1103, ../sass/coba.scss */
+  div.education h3 {
+    font-size: 2.5em;
+    color: #f0555a;
+    margin-bottom: 1em;
+  }
+  /* line 1109, ../sass/coba.scss */
+  div.education h4 {
+    font-size: 2em;
+    margin-bottom: .5em;
+  }
+  /* line 1113, ../sass/coba.scss */
+  div.education h4 span {
+    font-weight: 300;
+  }
+  /* line 1118, ../sass/coba.scss */
+  div.education p {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  }
+  /* line 1124, ../sass/coba.scss */
+  div.education ul {
+    margin-bottom: 2em;
+  }
+
+  /* END LAPTOP SECTION RESUME AND FOURTH-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP ABOUT CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1140, ../sass/coba.scss */
+  section.about-container {
+    height: 62em;
+  }
+
+  /* line 1145, ../sass/coba.scss */
+  div#about {
+    height: 61em;
+    padding-top: 10%;
+    max-width: 110em;
+  }
+  /* line 1152, ../sass/coba.scss */
+  div#about h2 {
+    color: #414042;
+  }
+  /* line 1157, ../sass/coba.scss */
+  div#about p {
+    font-size: 2em;
+    line-height: 1.6em;
+    color: gray;
+    font-weight: 300;
+    width: 100%;
+    max-width: 37em;
+    float: left;
+    margin-top: 6%;
+  }
+  /* line 1167, ../sass/coba.scss */
+  div#about p a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    color: #414042;
+    font-weight: bold;
+  }
+  /* line 1174, ../sass/coba.scss */
+  div#about p a:hover, div#about p a:focus {
+    color: gray;
+  }
+
+  /* line 1181, ../sass/coba.scss */
+  div.img-holder {
+    width: auto;
+    display: block;
+    float: right;
+  }
+  /* line 1186, ../sass/coba.scss */
+  div.img-holder > img {
+    width: 100%;
+    max-width: 30em;
+    margin-bottom: 5%;
+  }
+
+  /* line 1194, ../sass/coba.scss */
+  div.social {
+    width: 100%;
+    max-width: 4em;
+    height: 4em;
+    margin: 0 auto;
+  }
+
+  /* line 1201, ../sass/coba.scss */
+  a.social-one {
+    background-image: url(../imgs/in.png);
+    background-size: 4em;
+  }
+  /* line 1206, ../sass/coba.scss */
+  a.social-one:hover, a.social-one:focus {
+    background-image: url(../imgs/in-white.png);
+  }
+
+  /* END LAPTOP SECTION ABOUT AND ABOUT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SECTION CONTACT AND CONTACT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1217, ../sass/coba.scss */
+  section#contact-container {
+    /*background-color: $alt-gray-color;*/
+    background-image: url(../imgs/contact-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 62em;
+  }
+
+  /* line 1227, ../sass/coba.scss */
+  div#contact-me {
+    height: 62em;
+    padding-top: 8.5%;
+  }
+  /* line 1232, ../sass/coba.scss */
+  div#contact-me h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: #414042;
+    font-size: 2.5em;
+    margin: 2% 0 2% 0;
+  }
+
+  /* line 1244, ../sass/coba.scss */
+  form#get-in-touch {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65em;
+  }
+
+  /* line 1250, ../sass/coba.scss */
+  input, textarea {
+    margin-bottom: 1.5em;
+    display: block;
+    width: 100%;
+    max-width: 61em;
+    height: 100%;
+    padding: 1em;
+    font-size: 1.4em;
+    line-height: 1.42857143;
+    color: gray;
+    border: solid 1px #414042;
+    border-radius: .5em;
+    box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -webkit-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -moz-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -ms-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    box-sizing: border-box;
+  }
+
+  /* line 1267, ../sass/coba.scss */
+  button {
+    padding: 0.8em 0.8em;
+    border: #f0555a;
+    border-radius: .3em;
+    font-size: 2em;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #f0555a;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  /* END LAPTOP SECTION CONTACT AND CONTACT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP NIPOST PROJECT STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1291, ../sass/coba.scss */
+  section.nipost-first-container {
+    height: auto;
+    padding-top: 10%;
+  }
+  /* line 1296, ../sass/coba.scss */
+  section.nipost-first-container h2 {
+    margin-bottom: 0.5em;
+  }
+  /* line 1301, ../sass/coba.scss */
+  section.nipost-first-container > img {
+    width: 100%;
+    max-width: 80em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+  /* line 1309, ../sass/coba.scss */
+  section.nipost-first-container > p {
+    font-size: 1.9em;
+    line-height: 1.4em;
+    color: gray;
+    font-weight: 300;
+    width: 100%;
+    max-width: 45em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  /* line 1321, ../sass/coba.scss */
+  section.nipost-first-container h3 {
+    margin-bottom: 1em;
+  }
+
+  /* line 1327, ../sass/coba.scss */
+  div.first-sketches {
+    margin-bottom: 3em;
+  }
+  /* line 1330, ../sass/coba.scss */
+  div.first-sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* line 1338, ../sass/coba.scss */
+  div.first-sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* line 1347, ../sass/coba.scss */
+  div.second-sketches {
+    max-height: 250em;
+    height: 100%;
+  }
+  /* line 1351, ../sass/coba.scss */
+  div.second-sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1em;
+  }
+  /* line 1359, ../sass/coba.scss */
+  div.second-sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3em;
+  }
+
+  /* line 1369, ../sass/coba.scss */
+  div.sketches {
+    margin-bottom: 3em;
+  }
+  /* line 1372, ../sass/coba.scss */
+  div.sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* line 1380, ../sass/coba.scss */
+  div.sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* END LAPTOP NIPOST PROJECT STYLES
+  -----------------------------------------------------------------------------*/
+}
